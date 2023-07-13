@@ -12,6 +12,8 @@ After a the following command the build directory is created and you can build u
 ```bash
 $ meson build # creates build directory based on meson.build file
 $ ninja -C build PROJECT_AND_OR_EXECUTABLE_NAME # build is the directory name
+# or
+$ meson compile # the same as above on the build directory
 ```
 
 TODO - Search for meson compile, I think this is the same as using ninja.
@@ -20,4 +22,6 @@ TODO - Search for meson compile, I think this is the same as using ninja.
 
 ```
 https://youtu.be/LDMNWYLpklc?list=PLUtN5L6mwP7LCYEBnyzKpc06TtK75w_UT
+https://mesonbuild.com/Tutorial.html
+https://youtu.be/rewhp5o0xZg?list=PLUtN5L6mwP7LCYEBnyzKpc06TtK75w_UT
 ```
